@@ -3,22 +3,29 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Background](#background)
+- [Key Features](#key-features)
+- [Our Solution](#our-solution)
+- [Benefits](#benefits)
 - [Algorithms](#algorithms)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Results](#results)
-- [Threats to Validity](#threats-to-validity)
-- [Future Research](#future-research)
+- [Feature Selection](#feature-selection)
+- [Classification](#classification)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
+- [Conclusion](#conclusion)
 
 ## Introduction
 
-RACEMAN is a research project aimed at developing a robust and adaptive intrusion detection system for Online Social Networks (OSNs). The project employs a variety of machine learning algorithms, feature selection techniques, and metamorphic relations to achieve high accuracy and low computational overhead.
+RACEMAN is a research project aimed at developing a robust and adaptive intrusion detection system for Online Social Networks (OSNs).
 
-## Features
+## Background
+
+With the increasing prevalence of Online Social Networks (OSNs), the need for robust and adaptive security measures has never been greater. Traditional intrusion detection systems often fall short when applied to the dynamic and complex nature of OSNs.
+
+## Key Features
 
 - Data Preprocessing
 - Feature Selection using Metamorphic Relations
@@ -26,54 +33,47 @@ RACEMAN is a research project aimed at developing a robust and adaptive intrusio
 - Collaborative and Distributed IDS
 - Performance Evaluation Metrics
 
-## Installation
+## Our Solution
 
-Please refer to the `INSTALL.md` for detailed installation instructions.
+RACEMAN employs a variety of machine learning algorithms, feature selection techniques, and metamorphic relations to achieve high accuracy and low computational overhead.
 
-## Usage
+## Benefits
 
-To run the RACEMAN model in R, execute the following command:
-
-source("run_raceman.R")
+- High Accuracy
+- Low Computational Overhead
+- Scalability
+- Adaptability to Evolving Threats
 
 ## Algorithms
 
 - Data Cleaning Algorithm
 - Data Preprocessing Algorithm
 - Training and Testing of RACEMAN
-- Feature Selection using Metamorphic Relations
-- Classification Algorithm using RACEMAN
-- Collaborative and Distributed IDS
+- Feature Selection
+- Classification
+- Collaborative and Distributed mechanism
 
-## Evaluation Metrics
+## Feature Selection
 
-- Specificity
-- Precision
-- F-Measure
-- Accuracy
-- Sensitivity (Recall)
-- G-Mean
-- Fall-out (False Positive Rate)
-- FNR (False Negative Rate)
-- AUC (Area Under the Curve)
-- Detection Rate (DR)
-- Time to Detect (TTD)
-- System Overhead
-- Matthews Correlation Coefficient (MCC)
+We employ metamorphic relations for feature selection, which enhances the model's ability to generalize across different datasets.
 
-## Results
+## Classification
 
-The evaluation results indicate that RACEMAN outperforms other machine learning models in terms of accuracy, precision, and computational overhead. Detailed results can be found in the `RESULTS.md` file.
+Various machine learning models including Random Forest, SVM, and Neural Networks are used for the classification of intrusions.
 
-## Threats to Validity
+## Getting Started
 
-We have identified four main types of validity threats: internal, external, construct, and conclusion. For more details, refer to the `VALIDITY.md` file.
+### Installation
 
-## Future Research
+Please refer to the `INSTALL.md` for detailed installation instructions.
 
-1. Expanding Dataset Diversity
-2. Real-world Deployment
-3. Adaptive Learning for New Threats
+### Testing
+
+To run the RACEMAN model in R, execute the following command:
+
+```R
+source("run_raceman.R")
+```
 
 ## Contributing
 
@@ -83,7 +83,10 @@ Please read `CONTRIBUTING.md` for details on our code of conduct, and the proces
 
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
+## Conclusion
+
+The evaluation results indicate that RACEMAN outperforms other machine learning models in terms of accuracy, precision, and computational overhead. Future research directions include expanding dataset diversity, real-world deployment, and adaptive learning for new threats.
+
 ---
 
 For more information, please refer to the full research paper. Feel free to open an issue or make a pull request.
-
