@@ -1,0 +1,70 @@
+# shows the detailed process of our testing and training phase of the RACEMAN
+# Load required libraries
+library(httr)
+library(dplyr)
+#To install these packages if you haven't already, you can use:
+install.packages("httr")
+install.packages("dplyr")
+
+# Complete R code for Training and Testing of RACEMAN
+
+# Function to execute a test case (placeholder)
+execute_test_case <- function(test_case) {
+  # Execute the test case on the system under test
+  # Monitor the system responses during execution
+  # Return the system response
+  return(sample(1:100, 1))  # Placeholder, replace with actual system response
+}
+
+# Function to compare system responses (placeholder)
+compare_responses <- function(response, expected_behavior) {
+  # Compare the system response against the expected behavior
+  # Return TRUE if there is a deviation, FALSE otherwise
+  return(response != expected_behavior)  # Placeholder, replace with actual comparison logic
+}
+
+# Main function for training and testing of RACEMAN
+train_and_test_RACEMAN <- function(modified_test_cases, expected_behaviors) {
+  
+  # Step 1: Execute Modified Test Cases
+  system_responses <- list()
+  for (i in 1:length(modified_test_cases)) {
+    response <- execute_test_case(modified_test_cases[[i]])
+    system_responses[[i]] <- response
+  }
+  
+  # Step 2: Analyze System Responses
+  deviations <- list()
+  S <- list()
+  for (i in 1:length(system_responses)) {
+    deviation_detected <- compare_responses(system_responses[[i]], expected_behaviors[[i]])
+    if (deviation_detected) {
+      S[[length(S) + 1]] <- system_responses[[i]]
+    }
+  }
+  
+  # Step 3: Output
+  return(list(expected_behavior = expected_behaviors, deviations = S))
+}
+
+# OSN dataset (Replace with your actual modified test cases and expected behaviors)
+modified_test_cases <- list(
+  list(input = 1, expected_output = 2),
+  list(input = 2, expected_output = 4),
+  list(input = 3, expected_output = 6)
+)
+
+expected_behaviors <- list(2, 4, 6)
+
+# Run the training and testing of RACEMAN
+result <- train_and_test_RACEMAN(modified_test_cases, expected_behaviors)
+
+# Display the results
+print("Expected Behaviors:")
+print(result$expected_behavior)
+
+print("Deviations from Expected Behavior:")
+print(result$deviations)
+
+
+
