@@ -134,7 +134,49 @@ Please read `CONTRIBUTING.md` for details on our code of conduct, and the proces
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+### 1. MIT License
+- **Permissions**: Commercial use, modification, distribution, private use, sublicensing.
+- **Limitations**: Liability, warranty.
+- **Conditions**: License and copyright notice.
+- **Description**: A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+### 2. GNU General Public License (GPL) v3.0
+- **Permissions**: Commercial use, modification, distribution, patent use, private use.
+- **Limitations**: Liability, warranty.
+- **Conditions**: Disclose source, license and copyright notice, state changes, same license.
+- **Description**: Permissions are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
+
+### 3. Apache License 2.0
+- **Permissions**: Commercial use, modification, distribution, patent use, private use, sublicensing.
+- **Limitations**: Liability, warranty.
+- **Conditions**: License and copyright notice, state changes, include notice.
+- **Description**: A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights.
+
+### 4. GNU Lesser General Public License (LGPL) v3.0
+- **Permissions**: Commercial use, modification, distribution, patent use, private use.
+- **Limitations**: Liability, warranty.
+- **Conditions**: Disclose source, license and copyright notice, state changes, same license.
+- **Description**: Primarily for software libraries. It allows users to link to the library in their own programs and distribute them without the restrictions of GPL.
+
+### 5. BSD 2-Clause "Simplified" License
+- **Permissions**: Commercial use, modification, distribution, private use.
+- **Limitations**: Liability, warranty.
+- **Conditions**: License and copyright notice.
+- **Description**: A permissive license that comes in two variants, the BSD 2-Clause and BSD 3-Clause. Both have very permissive licensing terms.
+
+### 6. BSD 3-Clause "New" or "Revised" License
+- **Permissions**: Commercial use, modification, distribution, private use.
+- **Limitations**: Liability, warranty.
+- **Conditions**: License and copyright notice, include notice.
+- **Description**: Similar to the BSD 2-Clause license but with an added non-endorsement clause.
+
+### 7. Creative Commons Zero v1.0 Universal
+- **Permissions**: Commercial use, modification, distribution, private use.
+- **Limitations**: Liability, warranty, patent use, trademark use.
+- **Conditions**: No conditions.
+- **Description**: A public domain dedication tool, which allows creators to give up their copyright and put their works into the worldwide public domain.
+---
 
 ## Conclusion
 
